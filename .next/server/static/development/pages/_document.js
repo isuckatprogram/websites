@@ -1131,7 +1131,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this
     }), __jsx("meta", {
       name: "og:image",
-      content: "/static/hackermon.png",
+      content: "https://jdaniels.me/static/hackermon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
@@ -1163,7 +1163,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this
     }), __jsx("meta", {
       name: "twitter:image",
-      content: "/static/hackermon.png",
+      content: "https://jdaniels.me/static/hackermon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20

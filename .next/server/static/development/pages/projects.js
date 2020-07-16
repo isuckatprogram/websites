@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1972,10 +1972,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/projects.js":
+/*!***************************!*\
+  !*** ./pages/projects.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1988,181 +1988,210 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/runner/jdaniels/pages/index.js";
+var _jsxFileName = "/home/runner/jdaniels/pages/projects.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-class HomePage extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+class ProjectPage extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      'startedTypeWriter': false
-    };
-  }
-
-  componentDidMount() {
-    if (this.state.startedTypeWriter == false) {
-      var things = ['Developer', '"Youtuber"', `Artist`, `Repler`];
-      var thing = things[Math.floor(Math.random() * things.length)];
-      console.log(thing);
-      var text = `PDanielY - Professional ${thing}`;
-      var dom = document.getElementById('name');
-      var i = 0;
-      var a = setInterval(() => {
-        if (text[i] == undefined) {
-          clearInterval(a);
-          return;
-        }
-
-        dom.innerHTML = dom.innerHTML + text.charAt(i);
-        i++;
-      }, 50);
-    }
+    this.state = {};
   }
 
   render() {
     return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 11
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 12
       },
       __self: this
     }, __jsx("title", {
-      className: "jsx-1091522887",
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 13
       },
       __self: this
-    }, "JDanielS")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "1091522887",
+    }, "JDanielS - Projects")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "2601477145",
       __self: this
-    }, "*.jsx-1091522887{font-family:'Arial';text-align:center;}.social.jsx-1091522887{margin:auto;}.social.jsx-1091522887 *.jsx-1091522887{display:inline-block;}.social.jsx-1091522887 img.jsx-1091522887{border:0px solid;border-radius:10px 10px;width:25px;height:25px;cursor:pointer;padding-right:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrQ29CLEFBR2lDLEFBSVIsQUFHUyxBQUdKLFlBTG5CLEtBTTBCLEdBVk4sQ0FPcEIsaUJBTkEsR0FVYSxXQUNDLFlBQ0csZUFDRyxrQkFDcEIiLCJmaWxlIjoiL2hvbWUvcnVubmVyL2pkYW5pZWxzL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9MYXlvdXRcIlxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiXG5cbmNsYXNzIEhvbWVQYWdlIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xuICBjb25zdHJ1Y3Rvcihwcm9wcyl7XG4gICAgc3VwZXIocHJvcHMpXG4gICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgICdzdGFydGVkVHlwZVdyaXRlcic6IGZhbHNlXG4gICAgfVxuICB9XG4gIGNvbXBvbmVudERpZE1vdW50KCl7XG4gICAgaWYodGhpcy5zdGF0ZS5zdGFydGVkVHlwZVdyaXRlciA9PSBmYWxzZSl7XG4gICAgICB2YXIgdGhpbmdzID0gWydEZXZlbG9wZXInLCAnXCJZb3V0dWJlclwiJywgYEFydGlzdGAsYFJlcGxlcmBdXG4gICAgICB2YXIgdGhpbmcgPSB0aGluZ3NbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogdGhpbmdzLmxlbmd0aCldXG4gICAgICBjb25zb2xlLmxvZyh0aGluZylcbiAgICAgIHZhciB0ZXh0ID0gYFBEYW5pZWxZIC0gUHJvZmVzc2lvbmFsICR7dGhpbmd9YFxuICAgICAgdmFyIGRvbSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCduYW1lJylcbiAgICAgIHZhciBpID0gMFxuICAgICAgdmFyIGEgPSBzZXRJbnRlcnZhbCgoKT0+e1xuICAgICAgICBpZih0ZXh0W2ldID09IHVuZGVmaW5lZCl7XG4gICAgICAgICAgY2xlYXJJbnRlcnZhbChhKVxuICAgICAgICAgIHJldHVyblxuICAgICAgICB9XG4gICAgICAgIGRvbS5pbm5lckhUTUwgPSBkb20uaW5uZXJIVE1MICsgdGV4dC5jaGFyQXQoaSlcbiAgICAgICAgaSsrXG4gICAgICB9LDUwKVxuICAgIH1cbiAgfVxuICByZW5kZXIoKXtcbiAgICByZXR1cm4gKFxuICAgICAgPExheW91dD4gXG4gICAgICAgIDxIZWFkPlxuICAgICAgICAgIDx0aXRsZT5KRGFuaWVsUzwvdGl0bGU+XG4gICAgICAgIDwvSGVhZD5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICp7XG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0FyaWFsJztcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNvY2lhbHtcbiAgICAgICAgICAgIG1hcmdpbjogYXV0bztcbiAgICAgICAgICB9XG4gICAgICAgICAgLnNvY2lhbCAqe1xuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuc29jaWFsIGltZ3tcbiAgICAgICAgICAgIGJvcmRlcjogMHB4IHNvbGlkO1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweCAxMHB4O1xuICAgICAgICAgICAgd2lkdGg6IDI1cHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDI1cHg7XG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiA1cHg7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+PGJyLz48YnIvPlxuICAgICAgICA8aDEgaWQ9XCJuYW1lXCI+PC9oMT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzb2NpYWxcIj5cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9yZXBsLml0L0BQRGFuaWVsWVwiPjxpbWcgc3JjPVwiaHR0cHM6Ly9yZXBsLml0L3B1YmxpYy9pbWFnZXMvZmF2aWNvbi5pY29cIi8+PC9hPlxuICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL3Bsb3BfZGFuaWVsXCI+PGltZyBzcmM9XCJodHRwczovL3R3aXR0ZXIuY29tL2Zhdmljb24uaWNvXCIvPjwvYT5cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0ZpNHhqaEhTWDZWMXZhb3pGaVFVMnc/dmlld19hcz1zdWJzY3JpYmVyXCI+PGltZyBzcmM9XCJodHRwczovL3lvdXR1YmUuY29tL2Zhdmljb24uaWNvXCIvPjwvYT5cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2lzdWNrYXRwcm9ncmFtXCI+PGltZyBzcmM9XCJodHRwczovL2dpdGh1Yi5jb20vZmF2aWNvbi5pY29cIi8+PC9hPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPHA+VXNlIHRoZSBzaWRlYmFyIHRvIG5hdmlnYXRlIHRoZSBwYWdlPC9wPlxuICAgICAgPC9MYXlvdXQ+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWVQYWdlIl19 */\n/*@ sourceURL=/home/runner/jdaniels/pages/index.js */"), __jsx("br", {
-      className: "jsx-1091522887",
+    }, ".projects.jsx-2601477145{display:grid;grid-template-columns:auto auto auto;text-align:center;}.project.jsx-2601477145{border:2px solid;padding:10px 10px;width:190px;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;margin-top:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9wcm9qZWN0cy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFjb0IsQUFHMEIsQUFLSSxhQUpvQixJQUtuQixrQkFDTixZQUNPLEdBTkQsa0JBQ3BCLGlEQU1pQixlQUNqQiIsImZpbGUiOiIvaG9tZS9ydW5uZXIvamRhbmllbHMvcGFnZXMvcHJvamVjdHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gXCIuLi9jb21wb25lbnRzL0xheW91dFwiXG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCJcblxuY2xhc3MgUHJvamVjdFBhZ2UgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gIGNvbnN0cnVjdG9yKHByb3BzKXtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge31cbiAgfVxuICByZW5kZXIoKXtcbiAgICByZXR1cm4gKFxuICAgICAgPExheW91dD5cbiAgICAgICAgPEhlYWQ+XG4gICAgICAgICAgPHRpdGxlPkpEYW5pZWxTIC0gUHJvamVjdHM8L3RpdGxlPlxuICAgICAgICA8L0hlYWQ+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAucHJvamVjdHN7XG4gICAgICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBhdXRvIGF1dG8gYXV0bztcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICB9XG4gICAgICAgICAgLnByb2plY3R7XG4gICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDEwcHggMTBweDtcbiAgICAgICAgICAgIHdpZHRoOiAxOTBweDtcbiAgICAgICAgICAgIGhlaWdodDogZml0LWNvbnRlbnQ7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiA1cHg7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+PGJyLz48YnIvPjxici8+PGJyLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0c1wiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvamVjdFwiPlxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vYnVwcGxlLnRlY2hcIj48c3Ryb25nPkJ1cHBsZTwvc3Ryb25nPjwvYT5cbiAgICAgICAgICAgIDxwPkJ1cHBsZSB3YXMgYSBzbWFsbCBwcm9qZWN0IEkgY3JlYXRlZCBmb3IgdGhlIFBpZU1hZGQyMDIwIGhhY2thdGhvbi4gVGhlIHRoZW1lIHdhcyBcIkNvbm5lY3QgUGVvcGxlXCIuIFlvdSBjYW4gY2hhdCB3aXRoIG90aGVyIHBlb3BsZSBpZiB0aGVyZSBhcmUgcGVvcGxlIG9ubGluZS48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9taWtyb3MtLXBkYW5pZWx5LnJlcGwuY28vXCI+PHN0cm9uZz5NaWtyb3M8L3N0cm9uZz48L2E+XG4gICAgICAgICAgICA8cD5NaWtyb3Mgd2FzIGEgdXJsIHNob3J0bmVyIEkgbWFkZSB3aGlsZSBJIHdhcyBsZWFybmluZyBob3cgdG8gdXNlIHB5dGhvbiBpbiBmbGFzay48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly90ZXh0LXRvLXNwZWVjaC1jaGF0LnBkYW5pZWx5LnJlcGwuY28vXCI+PHN0cm9uZz5UVFMgQ2hhdDwvc3Ryb25nPjwvYT5cbiAgICAgICAgICAgIDxwPlRoaXMgd2FzIGEgcHJvamVjdCBJIGNyZWF0ZWQgZm9yIGZ1bi4gSXQgd2FzIGluc3BpcmVkIGZyb20gYSByb2Jsb3ggeW91dHViZSB2aWRlby4gSXQgY29udmVydCB5b3VyIG1lc3NhZ2UgdG8gYXVkaW8uPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvamVjdFwiPlxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL3JlcGwtdGFsa1wiPjxzdHJvbmc+UmVwbCBUYWxrIE5vZGUuanMgTGliYXJ5PC9zdHJvbmc+PC9hPlxuICAgICAgICAgICAgPHA+VGhpcyB3YXMgYSBub2RlLmpzIGxpYmFyeSB0aGF0IGFsbG93cyB5b3UgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgcmVwbC5pdCBhcGkuIEl0J3MgZGVhZCBhbmQgbm8gb25lIHVzZXMgaXQgYW55bW9yZSBidXQgSSBzdGlsbCBsaWtlIHRvIGZlYXR1cmUgaXQuPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvTGF5b3V0PlxuICAgIClcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0UGFnZSJdfQ== */\n/*@ sourceURL=/home/runner/jdaniels/pages/projects.js */"), __jsx("br", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 28
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1091522887",
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 28
       },
       __self: this
-    }), __jsx("h1", {
-      id: "name",
-      className: "jsx-1091522887",
+    }), __jsx("br", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 28
+      },
+      __self: this
+    }), __jsx("br", {
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
       },
       __self: this
     }), __jsx("div", {
-      className: "jsx-1091522887" + " " + "social",
+      className: "jsx-2601477145" + " " + "projects",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-2601477145" + " " + "project",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
       },
       __self: this
     }, __jsx("a", {
-      href: "https://repl.it/@PDanielY",
-      className: "jsx-1091522887",
+      href: "https://bupple.tech",
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 31
       },
       __self: this
-    }, __jsx("img", {
-      src: "https://repl.it/public/images/favicon.ico",
-      className: "jsx-1091522887",
+    }, __jsx("strong", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 31
       },
       __self: this
-    })), __jsx("a", {
-      href: "https://twitter.com/plop_daniel",
-      className: "jsx-1091522887",
+    }, "Bupple")), __jsx("p", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 32
       },
       __self: this
-    }, __jsx("img", {
-      src: "https://twitter.com/favicon.ico",
-      className: "jsx-1091522887",
+    }, "Bupple was a small project I created for the PieMadd2020 hackathon. The theme was \"Connect People\". You can chat with other people if there are people online.")), __jsx("div", {
+      className: "jsx-2601477145" + " " + "project",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 34
       },
       __self: this
-    })), __jsx("a", {
-      href: "https://www.youtube.com/channel/UCFi4xjhHSX6V1vaozFiQU2w?view_as=subscriber",
-      className: "jsx-1091522887",
+    }, __jsx("a", {
+      href: "https://mikros--pdaniely.repl.co/",
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 35
       },
       __self: this
-    }, __jsx("img", {
-      src: "https://youtube.com/favicon.ico",
-      className: "jsx-1091522887",
+    }, __jsx("strong", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 35
       },
       __self: this
-    })), __jsx("a", {
-      href: "https://github.com/isuckatprogram",
-      className: "jsx-1091522887",
+    }, "Mikros")), __jsx("p", {
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 36
       },
       __self: this
-    }, __jsx("img", {
-      src: "https://github.com/favicon.ico",
-      className: "jsx-1091522887",
+    }, "Mikros was a url shortner I made while I was learning how to use python in flask.")), __jsx("div", {
+      className: "jsx-2601477145" + " " + "project",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 38
       },
       __self: this
-    }))), __jsx("p", {
-      className: "jsx-1091522887",
+    }, __jsx("a", {
+      href: "https://text-to-speech-chat.pdaniely.repl.co/",
+      className: "jsx-2601477145",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 39
       },
       __self: this
-    }, "Use the sidebar to navigate the page"));
+    }, __jsx("strong", {
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, "TTS Chat")), __jsx("p", {
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, "This was a project I created for fun. It was inspired from a roblox youtube video. It convert your message to audio.")), __jsx("div", {
+      className: "jsx-2601477145" + " " + "project",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://www.npmjs.com/package/repl-talk",
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, __jsx("strong", {
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, "Repl Talk Node.js Libary")), __jsx("p", {
+      className: "jsx-2601477145",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, "This was a node.js libary that allows you to interact with the repl.it api. It's dead and no one uses it anymore but I still like to feature it."))));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (HomePage);
+/* harmony default export */ __webpack_exports__["default"] = (ProjectPage);
 
 /***/ }),
 
-/***/ 4:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 3:
+/*!*********************************!*\
+  !*** multi ./pages/projects.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/jdaniels/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/runner/jdaniels/pages/projects.js */"./pages/projects.js");
 
 
 /***/ }),
@@ -2300,4 +2329,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=projects.js.map

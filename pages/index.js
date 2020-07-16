@@ -10,7 +10,7 @@ class HomePage extends React.Component{
   }
   componentDidMount(){
     if(this.state.startedTypeWriter == false){
-      var things = ['Developer', '"Youtuber"', `Artist`]
+      var things = ['Developer', '"Youtuber"', `Artist`,`Repler`]
       var thing = things[Math.floor(Math.random() * things.length)]
       console.log(thing)
       var text = `PDanielY - Professional ${thing}`
