@@ -13,6 +13,9 @@ class ProjectPage extends React.Component{
           <title>JDanielS - Projects</title>
         </Head>
         <style jsx>{`
+          *{
+            font-family: Arial;
+          }
           .projects{
             display: grid;
             grid-template-columns: auto auto auto;

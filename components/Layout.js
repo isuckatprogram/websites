@@ -20,7 +20,7 @@ function Layout(props){
         
 
         .footer{
-          position: absolute;
+          position: fixed;
           bottom: 0;
           left: 42%;
           font-family: Quikhand;
