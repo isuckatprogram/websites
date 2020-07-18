@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2024,7 +2024,7 @@ class ProjectPage extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
     }, "JDanielS - Projects")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
       id: "3961264296",
       __self: this
-    }, "*.jsx-3961264296{font-family:Arial;}.projects.jsx-3961264296{display:grid;grid-template-columns:auto auto auto;text-align:center;}.project.jsx-3961264296{border:2px solid;padding:10px 10px;width:190px;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;margin-top:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9wcm9qZWN0cy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFjb0IsQUFHK0IsQUFHTCxBQUtJLGFBSm9CLElBS25CLENBUnBCLGlCQVNjLFlBQ08sR0FORCxrQkFDcEIsaURBTWlCLGVBQ2pCIiwiZmlsZSI6Ii9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9wcm9qZWN0cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTGF5b3V0XCJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIlxuXG5jbGFzcyBQcm9qZWN0UGFnZSBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcbiAgY29uc3RydWN0b3IocHJvcHMpe1xuICAgIHN1cGVyKHByb3BzKVxuICAgIHRoaXMuc3RhdGUgPSB7fVxuICB9XG4gIHJlbmRlcigpe1xuICAgIHJldHVybiAoXG4gICAgICA8TGF5b3V0PlxuICAgICAgICA8SGVhZD5cbiAgICAgICAgICA8dGl0bGU+SkRhbmllbFMgLSBQcm9qZWN0czwvdGl0bGU+XG4gICAgICAgIDwvSGVhZD5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICp7XG4gICAgICAgICAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5wcm9qZWN0c3tcbiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0byBhdXRvO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIH1cbiAgICAgICAgICAucHJvamVjdHtcbiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkO1xuICAgICAgICAgICAgcGFkZGluZzogMTBweCAxMHB4O1xuICAgICAgICAgICAgd2lkdGg6IDE5MHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiBmaXQtY29udGVudDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDVweDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT48YnIvPjxici8+PGJyLz48YnIvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RzXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9idXBwbGUudGVjaFwiPjxzdHJvbmc+QnVwcGxlPC9zdHJvbmc+PC9hPlxuICAgICAgICAgICAgPHA+QnVwcGxlIHdhcyBhIHNtYWxsIHByb2plY3QgSSBjcmVhdGVkIGZvciB0aGUgUGllTWFkZDIwMjAgaGFja2F0aG9uLiBUaGUgdGhlbWUgd2FzIFwiQ29ubmVjdCBQZW9wbGVcIi4gWW91IGNhbiBjaGF0IHdpdGggb3RoZXIgcGVvcGxlIGlmIHRoZXJlIGFyZSBwZW9wbGUgb25saW5lLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RcIj5cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL21pa3Jvcy0tcGRhbmllbHkucmVwbC5jby9cIj48c3Ryb25nPk1pa3Jvczwvc3Ryb25nPjwvYT5cbiAgICAgICAgICAgIDxwPk1pa3JvcyB3YXMgYSB1cmwgc2hvcnRuZXIgSSBtYWRlIHdoaWxlIEkgd2FzIGxlYXJuaW5nIGhvdyB0byB1c2UgcHl0aG9uIGluIGZsYXNrLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RcIj5cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3RleHQtdG8tc3BlZWNoLWNoYXQucGRhbmllbHkucmVwbC5jby9cIj48c3Ryb25nPlRUUyBDaGF0PC9zdHJvbmc+PC9hPlxuICAgICAgICAgICAgPHA+VGhpcyB3YXMgYSBwcm9qZWN0IEkgY3JlYXRlZCBmb3IgZnVuLiBJdCB3YXMgaW5zcGlyZWQgZnJvbSBhIHJvYmxveCB5b3V0dWJlIHZpZGVvLiBJdCBjb252ZXJ0IHlvdXIgbWVzc2FnZSB0byBhdWRpby48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvcmVwbC10YWxrXCI+PHN0cm9uZz5SZXBsIFRhbGsgTm9kZS5qcyBMaWJhcnk8L3N0cm9uZz48L2E+XG4gICAgICAgICAgICA8cD5UaGlzIHdhcyBhIG5vZGUuanMgbGliYXJ5IHRoYXQgYWxsb3dzIHlvdSB0byBpbnRlcmFjdCB3aXRoIHRoZSByZXBsLml0IGFwaS4gSXQncyBkZWFkIGFuZCBubyBvbmUgdXNlcyBpdCBhbnltb3JlIGJ1dCBJIHN0aWxsIGxpa2UgdG8gZmVhdHVyZSBpdC48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9MYXlvdXQ+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RQYWdlIl19 */\n/*@ sourceURL=/home/runner/jdaniels/pages/projects.js */"), __jsx("br", {
+    }, "*.jsx-3961264296{font-family:Arial;}.projects.jsx-3961264296{display:grid;grid-template-columns:auto auto auto;text-align:center;}.project.jsx-3961264296{border:2px solid;padding:10px 10px;width:190px;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;margin-top:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9wcm9qZWN0cy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFjb0IsQUFHK0IsQUFHTCxBQUtJLGFBSm9CLElBS25CLENBUnBCLGlCQVNjLFlBQ08sR0FORCxrQkFDcEIsaURBTWlCLGVBQ2pCIiwiZmlsZSI6Ii9ob21lL3J1bm5lci9qZGFuaWVscy9wYWdlcy9wcm9qZWN0cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTGF5b3V0XCJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIlxuXG5jbGFzcyBQcm9qZWN0UGFnZSBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcbiAgY29uc3RydWN0b3IocHJvcHMpe1xuICAgIHN1cGVyKHByb3BzKVxuICAgIHRoaXMuc3RhdGUgPSB7fVxuICB9XG4gIHJlbmRlcigpe1xuICAgIHJldHVybiAoXG4gICAgICA8TGF5b3V0PlxuICAgICAgICA8SGVhZD5cbiAgICAgICAgICA8dGl0bGU+SkRhbmllbFMgLSBQcm9qZWN0czwvdGl0bGU+XG4gICAgICAgIDwvSGVhZD5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICp7XG4gICAgICAgICAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5wcm9qZWN0c3tcbiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0byBhdXRvO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIH1cbiAgICAgICAgICAucHJvamVjdHtcbiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkO1xuICAgICAgICAgICAgcGFkZGluZzogMTBweCAxMHB4O1xuICAgICAgICAgICAgd2lkdGg6IDE5MHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiBmaXQtY29udGVudDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDVweDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT48YnIvPjxici8+PGJyLz48YnIvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RzXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9idXBwbGUudGVjaFwiPjxzdHJvbmc+QnVwcGxlPC9zdHJvbmc+PC9hPlxuICAgICAgICAgICAgPHA+QnVwcGxlIHdhcyBhIHNtYWxsIHByb2plY3QgSSBjcmVhdGVkIGZvciB0aGUgUGllTWFkZDIwMjAgaGFja2F0aG9uLiBUaGUgdGhlbWUgd2FzIFwiQ29ubmVjdCBQZW9wbGVcIi4gWW91IGNhbiBjaGF0IHdpdGggb3RoZXIgcGVvcGxlIGlmIHRoZXJlIGFyZSBwZW9wbGUgb25saW5lLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RcIj5cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL21pa3Jvcy0tcGRhbmllbHkucmVwbC5jby9cIj48c3Ryb25nPk1pa3Jvczwvc3Ryb25nPjwvYT5cbiAgICAgICAgICAgIDxwPk1pa3JvcyB3YXMgYSB1cmwgc2hvcnRuZXIgSSBtYWRlIHdoaWxlIEkgd2FzIGxlYXJuaW5nIGhvdyB0byB1c2UgcHl0aG9uIGluIGZsYXNrLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3RcIj5cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3RleHQtdG8tc3BlZWNoLWNoYXQucGRhbmllbHkucmVwbC5jby9cIj48c3Ryb25nPlRUUyBDaGF0PC9zdHJvbmc+PC9hPlxuICAgICAgICAgICAgPHA+VGhpcyB3YXMgYSBwcm9qZWN0IEkgY3JlYXRlZCBmb3IgZnVuLiBJdCB3YXMgaW5zcGlyZWQgZnJvbSBhIHJvYmxveCB5b3V0dWJlIHZpZGVvLiBJdCBjb252ZXJ0IHlvdXIgbWVzc2FnZSB0byBhdWRpby48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvcmVwbC10YWxrXCI+PHN0cm9uZz5SZXBsIFRhbGsgTm9kZS5qcyBMaWJhcnk8L3N0cm9uZz48L2E+XG4gICAgICAgICAgICA8cD5UaGlzIHdhcyBhIG5vZGUuanMgbGliYXJ5IHRoYXQgYWxsb3dzIHlvdSB0byBpbnRlcmFjdCB3aXRoIHRoZSByZXBsLml0IGFwaS4gSXQncyBkZWFkIGFuZCBubyBvbmUgdXNlcyBpdCBhbnltb3JlIGJ1dCBJIHN0aWxsIGxpa2UgdG8gZmVhdHVyZSBpdC48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9qZWN0XCI+XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9yZXBsLml0L0BQRGFuaWVsWS9HaXRIdWItRm9sbG93ZXItQm90I21haW4ucHlcIj48c3Ryb25nPkdpdGh1YiBGb2xsb3dlciBCb3Q8L3N0cm9uZz48L2E+XG4gICAgICAgICAgICA8cD5UaGlzIHdhcyBhIHByb2plY3QgSSBjcmVhdGVkIHdoZW4gSSB3YXMgYm9yZWQuIEl0IGF1dG9tYXRpY2FsbHkgZ2V0cyByYW5kb20gZ2l0aHViIHVzZXJuYW1lcyBhbmQgZm9sbG93cyB0aGVtLiA8L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9MYXlvdXQ+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RQYWdlIl19 */\n/*@ sourceURL=/home/runner/jdaniels/pages/projects.js */"), __jsx("br", {
       className: "jsx-3961264296",
       __source: {
         fileName: _jsxFileName,
@@ -2175,7 +2175,36 @@ class ProjectPage extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
         lineNumber: 47
       },
       __self: this
-    }, "This was a node.js libary that allows you to interact with the repl.it api. It's dead and no one uses it anymore but I still like to feature it."))));
+    }, "This was a node.js libary that allows you to interact with the repl.it api. It's dead and no one uses it anymore but I still like to feature it.")), __jsx("div", {
+      className: "jsx-3961264296" + " " + "project",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://repl.it/@PDanielY/GitHub-Follower-Bot#main.py",
+      className: "jsx-3961264296",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, __jsx("strong", {
+      className: "jsx-3961264296",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, "Github Follower Bot")), __jsx("p", {
+      className: "jsx-3961264296",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }, "This was a project I created when I was bored. It automatically gets random github usernames and follows them. "))));
   }
 
 }
@@ -2184,7 +2213,7 @@ class ProjectPage extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/

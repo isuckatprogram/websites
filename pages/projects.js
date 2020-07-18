@@ -46,6 +46,10 @@ class ProjectPage extends React.Component{
             <a href="https://www.npmjs.com/package/repl-talk"><strong>Repl Talk Node.js Libary</strong></a>
             <p>This was a node.js libary that allows you to interact with the repl.it api. It's dead and no one uses it anymore but I still like to feature it.</p>
           </div>
+          <div className="project">
+            <a href="https://repl.it/@PDanielY/GitHub-Follower-Bot#main.py"><strong>Github Follower Bot</strong></a>
+            <p>This was a project I created when I was bored. It automatically gets random github usernames and follows them. </p>
+          </div>
         </div>
       </Layout>
     )
