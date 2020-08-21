@@ -24,6 +24,13 @@ class AboutPage extends React.Component{
         <br/>
         <h1>Who is PDanielY?</h1>
         <p>PDanielY is an unknown specie that lives in a planet called Earth (you may have heard of it). Apparently, he likes to make websites and app. You can contact him with something he calls an email (therealhackermon@gmail.com). He also has a Discord (Hackermon#6691).</p>
+
+        <h3>Also Knows As</h3>
+        <ul>
+          <li>JDanielS</li>
+          <li>Hackermon</li>
+          <li>PDanielY</li>
+        </ul>
       </Layout>
     )
   }

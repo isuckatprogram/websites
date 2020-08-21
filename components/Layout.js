@@ -22,8 +22,7 @@ function Layout(props){
         .footer{
           position: fixed;
           bottom: 0;
-          left: 42%;
-          font-family: Quikhand;
+          font-family: Monospace;
         }
         
         .sidebar-toggle{
@@ -34,7 +33,7 @@ function Layout(props){
         }
         .sidebar-toggle hr{
           width: 10px;
-          padding: 2px 9px;
+          padding: 1px 9px;
           background-color: black;
           border: 1px solid black;
         }
@@ -43,7 +42,7 @@ function Layout(props){
           left: 0;
           top: 0;
           float: left;
-          height: 100%;
+          height: 98%;
           width: 220px;
           background-color: white;
           border-right: 3px solid;
@@ -56,6 +55,7 @@ function Layout(props){
           cursor: pointer;
           padding-top: 10px;
           padding-bottom: 10px;
+          text-align: center;
         }
         .sidebar div:hover{
           background-color: gray;

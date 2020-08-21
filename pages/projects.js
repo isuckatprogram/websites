@@ -23,10 +23,12 @@ class ProjectPage extends React.Component{
           }
           .project{
             border: 2px solid;
-            padding: 10px 10px;
+            padding: 20px 20px;
             width: 190px;
+            min-height: 150px;
             height: fit-content;
             margin-top: 5px;
+            margin-left: 5px;
           }
         `}</style><br/><br/><br/><br/>
         <div className="projects">
@@ -35,8 +37,8 @@ class ProjectPage extends React.Component{
             <p>Bupple was a small project I created for the PieMadd2020 hackathon. The theme was "Connect People". You can chat with other people if there are people online.</p>
           </div>
           <div className="project">
-            <a href="https://mikros--pdaniely.repl.co/"><strong>Mikros</strong></a>
-            <p>Mikros was a url shortner I made while I was learning how to use python in flask.</p>
+            <a href="https://mikros--pdaniely.repl.co/"><strong>Skam</strong></a>
+            <p>A basic URL shortner made with react and mongodb.</p>
           </div>
           <div className="project">
             <a href="https://text-to-speech-chat.pdaniely.repl.co/"><strong>TTS Chat</strong></a>
@@ -48,7 +50,11 @@ class ProjectPage extends React.Component{
           </div>
           <div className="project">
             <a href="https://repl.it/@PDanielY/GitHub-Follower-Bot#main.py"><strong>Github Follower Bot</strong></a>
-            <p>This was a project I created when I was bored. It automatically gets random github usernames and follows them. </p>
+            <p>This was a project I created when I was bored. It automatically gets random github usernames and follows them. ( It's currently down since GitHub told me to stop )</p>
+          </div>
+          <div className="project">
+            <a href="https://discord.gg/EzecfUX"><strong>Null Discord Bot</strong></a>
+            <p>Null is a discord bot I made for moderation, music, fun, etc. It was for fun but has surprisingly grown.</p>
           </div>
         </div>
       </Layout>
