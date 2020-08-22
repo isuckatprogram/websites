@@ -4,9 +4,18 @@ function Layout(props){
   function toggleSidebar(){
     var sidebar = document.getElementsByClassName('sidebar')[0]
     if(sidebar.hidden == false){
-      sidebar.hidden = true
+      sidebar.style.width = `0`
+      setTimeout(()=>{
+        sidebar.hidden = true
+      }, 256)
     }else{
       sidebar.hidden = false
+      for(var i = 0; i < 220; i++){
+        setTimeout(()=>{
+          sidebar.style.width = `${i}px`
+        }, 5)
+      }
+      // sidebar.style.width = `220px`
     }
   }
 
@@ -43,12 +52,13 @@ function Layout(props){
           top: 0;
           float: left;
           height: 98%;
-          width: 220px;
+          width: 0;
           background-color: white;
           border-right: 3px solid;
           border-bottom: 3px solid;
           border-top: 3px solid;
           font-family: Arial;
+          transition: 0.6s;
         }
         .sidebar div{
           width: 100%;
