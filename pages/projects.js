@@ -20,6 +20,7 @@ class ProjectPage extends React.Component{
             display: grid;
             grid-template-columns: auto auto auto;
             text-align: center;
+            text-align: center;
           }
           .project{
             border: 2px solid;

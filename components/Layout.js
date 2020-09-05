@@ -81,6 +81,7 @@ function Layout(props){
         <Link href="/"><div>Home</div></Link>
         <Link href="/projects"><div>Projects</div></Link>
         <Link href="/about"><div>Who is PDanielY?</div></Link>
+        <Link href="https://blogs.jdaniels.me"><div>Blogs</div></Link>
       </div>
       <div className="content">{props.children}</div>
       <div className="footer">
